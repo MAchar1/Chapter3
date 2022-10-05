@@ -1,4 +1,3 @@
-package Chapter3HW;
 
 public class ThingsThatMove {
     public static void main(String[] args) {
