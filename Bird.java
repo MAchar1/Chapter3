@@ -27,4 +27,14 @@ public class Bird implements Flight{
     public String toString() {
         return "Bird [type=" + type + "]";
     }
+    
+    @Override
+    public void walk(){
+        System.out.println("I walk on my feet.");
+    }
+
+    @Override
+    public void jump(){
+        System.out.println("I jump by leaping from my feet.");
+    }
 }
