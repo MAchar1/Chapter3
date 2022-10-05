@@ -37,4 +37,14 @@ public class Airplane implements Flight{
     public String toString(){
         return "Airplane [model=" + model + ", year=" + yearBuilt + "]";
     }
+    
+    @Override
+    public void walk(){
+        System.out.println("I tax on my wheels.");
+    }
+
+    @Override
+    public void jump(){
+        System.out.println("I cannot jump.");
+    }
 }
